@@ -2065,8 +2065,9 @@ footer h2 {
 
 .about-main {
   position: relative;
-  height: 70vh;
+  height: auto;
   width: 100%;
+  padding-bottom: 10rem;
   margin-top: -3rem;
 }
 
