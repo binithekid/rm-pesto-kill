@@ -90,10 +90,12 @@ section {
 @media (max-width: 767px) {
   section {
     height: auto;
+    overflow-x: hidden !important;
   }
   .overlay {
     height: auto;
     margin-left: -4rem;
+    overflow-x: hidden !important;
   }
 
   .overlay h1 {
@@ -125,6 +127,7 @@ section {
   .nav-btn {
     margin-top: -3rem;
     height: 100vh !important;
+    overflow-x: hidden !important;
   }
 
   .nav-link:hover > a {
@@ -600,10 +603,12 @@ section {
     margin-top: 35rem;
     margin-left: -5.5rem;
     height: 30% !important;
+    overflow-x: hidden !important;
   }
   .middle {
     height: 150vh !important;
     margin-left: -1rem;
+    overflow-x: hidden !important;
   }
   .middle h2 {
     font-size: 2.2rem !important;
@@ -618,6 +623,7 @@ section {
 .middle {
   position: relative;
   height: 90vh;
+  overflow-x: hidden !important;
   width: 100%;
   background-image: linear-gradient(white, #e6e6e6);
 }
@@ -657,6 +663,7 @@ section {
   width: 40%;
   height: 60%;
   box-shadow: 0px 1px 16px rgba(0, 0, 0, 0.12);
+  overflow-x: hidden !important;
 }
 
 .slide1 {
@@ -664,6 +671,7 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   animation: fade1 12s infinite;
+  overflow-x: hidden !important;
 }
 
 .slide2 {
@@ -671,12 +679,14 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   animation: fade2 12s infinite;
+  overflow-x: hidden !important;
 }
 
 .slide3 {
   background-image: url("sliderpic4.png");
   background-repeat: no-repeat;
   background-size: cover;
+  overflow-x: hidden !important;
   animation: fade3 12s infinite;
 }
 
@@ -755,6 +765,10 @@ section {
     font-size: 2.2rem;
   }
 
+  .cardlist {
+    overflow-x: hidden !important;
+  }
+
   .cardlist .leftext {
     margin-left: 1.5rem !important;
     width: 80% !important;
@@ -768,6 +782,7 @@ section {
 
   .cardlist .explore {
     width: 100%;
+    overflow-x: hidden !important;
     padding-left: 1.5rem !important;
   }
 }
@@ -775,6 +790,7 @@ section {
 .cardlist {
   background-image: linear-gradient(#e6e6e6, white);
   max-width: 100%;
+  overflow-x: hidden !important;
 }
 
 .cardlist h4 {
@@ -809,6 +825,7 @@ section {
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
   .testimonials:after {
+    overflow-x: hidden !important;
     background: none !important;
   }
 
@@ -948,12 +965,14 @@ section {
 @media (max-width: 1045px) {
   .testimonials .wrapper .box {
     width: calc(50% - 10px);
+    overflow-x: hidden !important;
     margin: 10px 0;
   }
 }
 @media (max-width: 702px) {
   .testimonials .wrapper .box {
     width: 100%;
+    overflow-x: hidden !important;
     margin-left: -1rem;
   }
 }
@@ -976,6 +995,7 @@ section {
   }
 
   .questions .wrapper {
+    overflow-x: hidden !important;
     max-width: 95% !important;
     padding-left: 1.5rem !important;
   }
@@ -2250,7 +2270,7 @@ footer h2 {
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
   body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
   }
 
   .rodent-main h1 {
@@ -2310,6 +2330,10 @@ footer h2 {
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
   body {
+    overflow-x: hidden !important;
+  }
+
+  html {
     overflow-x: hidden !important;
   }
 
