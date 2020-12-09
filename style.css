@@ -2310,7 +2310,7 @@ footer h2 {
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
   body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
   }
 
   .badges {
