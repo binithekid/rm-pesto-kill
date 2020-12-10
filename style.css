@@ -795,7 +795,7 @@ section {
 
   .cardlist .card {
     margin-left: -4rem !important;
-    max-width: 90%;
+    max-width: 95% !important;
     overflow-x: hidden !important;
     margin-bottom: 1rem;
   }
