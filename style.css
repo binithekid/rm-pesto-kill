@@ -8,6 +8,11 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden !important;
+}
+
+html {
+  overflow-x: hidden !important;
 }
 
 ul {
@@ -2302,11 +2307,10 @@ footer h2 {
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
   body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
   }
-
   html {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
   }
 
   .rodent-main h1 {
@@ -2366,6 +2370,10 @@ footer h2 {
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
   body {
+    overflow-x: hidden !important;
+  }
+
+  html {
     overflow-x: hidden !important;
   }
 
