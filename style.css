@@ -764,7 +764,7 @@ section {
   border-radius: 10px;
 }
 .card {
-  overflow: hidden !important;
+  overflow: hidden;
   position: relative;
   margin-left: 2rem;
   cursor: pointer;
