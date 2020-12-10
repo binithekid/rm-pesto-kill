@@ -2121,7 +2121,7 @@ footer h2 {
     font-size: 2rem !important;
   }
   .about-main p {
-    width: 80%;
+    width: 95% !important;
     padding-top: 0rem;
   }
 
@@ -2270,6 +2270,7 @@ footer h2 {
 .btnlistservices {
   margin-top: 2rem;
   margin-left: 0rem;
+  padding-bottom: 10rem;
 }
 
 /* Landscape phone to portrait tablet */
@@ -2286,7 +2287,12 @@ footer h2 {
     width: 80% !important;
   }
   .btnlistservices {
-    margin-left: -17.5rem !important;
+    margin-left: -2.5rem !important;
+    margin-bottom: -10rem;
+  }
+
+  .quoteacross {
+    display: none;
   }
 }
 
