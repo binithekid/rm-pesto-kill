@@ -90,12 +90,10 @@ section {
 @media (max-width: 767px) {
   section {
     height: auto;
-    overflow-x: hidden !important;
   }
   .overlay {
     height: auto;
     margin-left: -4rem;
-    overflow-x: hidden !important;
   }
 
   .overlay h1 {
@@ -127,7 +125,6 @@ section {
   .nav-btn {
     margin-top: -3rem;
     height: 100vh !important;
-    overflow-x: hidden !important;
   }
 
   .nav-link:hover > a {
@@ -600,30 +597,32 @@ section {
   .slide2,
   .slide3 {
     width: 83% !important;
-    margin-top: 35rem;
+    margin-top: 29rem;
     margin-left: -5.5rem;
-    height: 30% !important;
-    overflow-x: hidden !important;
+    height: 15rem !important;
   }
   .middle {
-    height: 150vh !important;
+    height: auto !important;
     margin-left: -1rem;
-    overflow-x: hidden !important;
+    background-image: none !important;
   }
   .middle h2 {
-    font-size: 2.2rem !important;
-    margin-bottom: 1rem;
+    font-size: 1.6rem !important;
     line-height: 2.6rem;
   }
   .middle h5 {
     font-size: 1rem !important;
   }
+
+  .btn {
+    padding: 0.2rem 0rem !important;
+    font-size: 0.7rem !important;
+  }
 }
 
 .middle {
   position: relative;
-  height: 90vh;
-  overflow-x: hidden !important;
+  height: auto;
   width: 100%;
   background-image: linear-gradient(white, #e6e6e6);
 }
@@ -661,9 +660,8 @@ section {
 .slide3 {
   position: absolute;
   width: 40%;
-  height: 60%;
+  height: 23rem;
   box-shadow: 0px 1px 16px rgba(0, 0, 0, 0.12);
-  overflow-x: hidden !important;
 }
 
 .slide1 {
@@ -671,7 +669,6 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   animation: fade1 12s infinite;
-  overflow-x: hidden !important;
 }
 
 .slide2 {
@@ -679,14 +676,12 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   animation: fade2 12s infinite;
-  overflow-x: hidden !important;
 }
 
 .slide3 {
   background-image: url("sliderpic4.png");
   background-repeat: no-repeat;
   background-size: cover;
-  overflow-x: hidden !important;
   animation: fade3 12s infinite;
 }
 
@@ -762,11 +757,8 @@ section {
 @media (max-width: 767px) {
   .cardlist h4 {
     padding-left: 1.5rem !important;
-    font-size: 2.2rem;
-  }
-
-  .cardlist {
-    overflow-x: hidden !important;
+    font-size: 1.6rem !important;
+    margin-top: 6rem;
   }
 
   .cardlist .leftext {
@@ -775,22 +767,25 @@ section {
   }
 
   .cardlist .card {
-    margin-left: -7rem !important;
-    max-width: 80%;
-    margin-bottom: 1.5rem;
+    margin-left: -4rem !important;
+    max-width: 90%;
+    margin-bottom: 1rem;
   }
 
   .cardlist .explore {
     width: 100%;
-    overflow-x: hidden !important;
-    padding-left: 1.5rem !important;
+    padding-left: 1.9rem !important;
+    font-size: 1rem;
+  }
+
+  .cardlist {
+    background-image: none !important;
   }
 }
 
 .cardlist {
   background-image: linear-gradient(#e6e6e6, white);
   max-width: 100%;
-  overflow-x: hidden !important;
 }
 
 .cardlist h4 {
@@ -825,7 +820,6 @@ section {
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
   .testimonials:after {
-    overflow-x: hidden !important;
     background: none !important;
   }
 
@@ -852,8 +846,20 @@ section {
   }
 
   .testimonials .wrapper {
-    max-width: 85% !important;
-    padding-left: -0rem !important;
+    max-width: 95% !important;
+    padding-left: 1.8rem !important;
+  }
+
+  .testimonials .wrapper .box p {
+    font-size: 0.8rem;
+  }
+
+  .testimonials .wrapper .box .name {
+    font-size: 0.8rem;
+  }
+
+  .testimonials .wrapper .box .job {
+    font-size: 0.8rem;
   }
 
   .testimonials .explore p {
@@ -965,14 +971,12 @@ section {
 @media (max-width: 1045px) {
   .testimonials .wrapper .box {
     width: calc(50% - 10px);
-    overflow-x: hidden !important;
     margin: 10px 0;
   }
 }
 @media (max-width: 702px) {
   .testimonials .wrapper .box {
     width: 100%;
-    overflow-x: hidden !important;
     margin-left: -1rem;
   }
 }
@@ -995,13 +999,13 @@ section {
   }
 
   .questions .wrapper {
-    overflow-x: hidden !important;
     max-width: 95% !important;
     padding-left: 1.5rem !important;
   }
 
   .questions .wrapper label span {
     width: 80%;
+    font-size: 0.9rem;
   }
   .calltoaction {
     display: none;
@@ -1013,6 +1017,10 @@ section {
 
   .questions .explore {
     padding-left: 1.9rem !important;
+  }
+
+  .questions .wrapper .content p {
+    font-size: 0.9rem;
   }
 }
 
@@ -1419,7 +1427,7 @@ footer h2 {
 
 .quoteacross h2 {
   display: inline-block;
-  margin-top: 5rem;
+  margin-top: 50%;
   font-weight: 400;
   font-size: 1.5rem;
   color: white;
@@ -2101,6 +2109,21 @@ footer h2 {
   opacity: 0.9;
 }
 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  .about-main h1 {
+    font-size: 2rem !important;
+  }
+  .about-main p {
+    width: 80%;
+    padding-top: 0rem;
+  }
+
+  .btnlist {
+    margin-left: -1rem;
+  }
+}
+
 .middle-option h6 {
   font-size: 1rem;
   padding-top: 1rem;
@@ -2271,7 +2294,7 @@ footer h2 {
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
   body {
-    overflow-x: hidden !important;
+    overflow-x: hidden;
   }
 
   .rodent-main h1 {
@@ -2331,10 +2354,6 @@ footer h2 {
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
   body {
-    overflow-x: hidden !important;
-  }
-
-  html {
     overflow-x: hidden !important;
   }
 
