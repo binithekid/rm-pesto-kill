@@ -614,9 +614,7 @@ section {
   .slide2,
   .slide3 {
     width: 0% !important;
-    margin-top: 39rem;
     margin-left: -5.5rem;
-    height: 15rem !important;
     display: none;
     overflow-x: hidden !important;
   }
@@ -786,7 +784,7 @@ section {
   .cardlist h4 {
     padding-left: 1.5rem !important;
     font-size: 1.6rem !important;
-    margin-top: 6rem;
+    margin-top: -2rem;
   }
 
   .cardlist .leftext {
@@ -2159,7 +2157,7 @@ footer h2 {
     font-size: 2rem !important;
   }
   .about-main p {
-    width: 100%;
+    width: 80% !important;
     padding-top: 0rem;
   }
 }
