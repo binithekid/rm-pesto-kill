@@ -90,10 +90,12 @@ section {
 @media (max-width: 767px) {
   section {
     height: auto;
+    overflow-x: hidden !important;
   }
   .overlay {
     height: auto;
     margin-left: -4rem;
+    overflow-x: hidden !important;
   }
 
   .overlay h1 {
@@ -597,14 +599,16 @@ section {
   .slide2,
   .slide3 {
     width: 83% !important;
-    margin-top: 29rem;
+    margin-top: 39rem;
     margin-left: -5.5rem;
     height: 15rem !important;
+    overflow-x: hidden !important;
   }
   .middle {
     height: auto !important;
     margin-left: -1rem;
     background-image: none !important;
+    overflow-x: hidden !important;
   }
   .middle h2 {
     font-size: 1.6rem !important;
@@ -780,6 +784,7 @@ section {
 
   .cardlist {
     background-image: none !important;
+    overflow-x: hidden !important;
   }
 }
 
@@ -821,6 +826,7 @@ section {
 @media (max-width: 767px) {
   .testimonials:after {
     background: none !important;
+    overflow-x: hidden !important;
   }
 
   .testimonials h4 {
@@ -1009,10 +1015,12 @@ section {
   }
   .calltoaction {
     display: none;
+    overflow-x: hidden !important;
   }
   .questions {
     height: auto !important;
     padding-bottom: 4rem;
+    overflow-x: hidden !important;
   }
 
   .questions .explore {
@@ -2311,6 +2319,7 @@ footer h2 {
 
   .middle-option {
     background-image: none;
+    overflow-x: hidden !important;
   }
 
   .middle-option img {
@@ -2322,6 +2331,8 @@ footer h2 {
 
   .quoteacross {
     height: 30vh;
+    overflow-x: hidden !important;
+
     width: 100%;
     margin-top: 5rem;
     background-image: linear-gradient(to right, #00579c, #6495ed);
@@ -2338,6 +2349,8 @@ footer h2 {
   .quoteafinal {
     height: 30vh;
     width: 100%;
+    overflow-x: hidden !important;
+
     margin-top: 5rem;
     background-image: linear-gradient(to right, #00579c, #6495ed);
   }
@@ -2359,6 +2372,7 @@ footer h2 {
 
   .badges {
     display: none;
+    overflow-x: hidden !important;
   }
 
   .leftpanel h1 {
@@ -2376,6 +2390,7 @@ footer h2 {
 
   .contactus:after {
     height: 120vh;
+    overflow-x: hidden !important;
   }
 
   .contact-form {
@@ -2511,10 +2526,12 @@ footer h2 {
 
   .flex-grid {
     display: block;
+    overflow-x: hidden !important;
   }
 
   .tagline {
     max-width: 100%;
+    overflow-x: hidden !important;
   }
 
   .tagline h3 {
@@ -2604,6 +2621,8 @@ footer h2 {
     height: 35vh;
     width: 100%;
     margin-top: 7rem;
+    overflow-x: hidden !important;
+
     background-image: linear-gradient(to right, #00579c, #6495ed);
   }
 
@@ -2623,6 +2642,8 @@ footer h2 {
     height: 40vh;
     width: 100%;
     margin-top: 2rem;
+    overflow-x: hidden !important;
+
     background-image: linear-gradient(to right, #00579c, #6495ed);
   }
 
