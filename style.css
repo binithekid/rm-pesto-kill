@@ -613,12 +613,18 @@ section {
   .slide1,
   .slide2,
   .slide3 {
-    width: 83% !important;
+    width: 0% !important;
     margin-top: 39rem;
     margin-left: -5.5rem;
     height: 15rem !important;
+    display: none;
     overflow-x: hidden !important;
   }
+
+  .middle .slider {
+    display: none;
+  }
+
   .middle {
     height: auto !important;
     margin-left: -1rem;
@@ -758,7 +764,7 @@ section {
   border-radius: 10px;
 }
 .card {
-  overflow: hidden;
+  overflow: hidden !important;
   position: relative;
   margin-left: 2rem;
   cursor: pointer;
@@ -2394,6 +2400,10 @@ footer h2 {
 @media (max-width: 767px) {
   body {
     overflow-x: hidden !important;
+  }
+
+  html {
+    overflow: hidden !important;
   }
 
   .badges {
