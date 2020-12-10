@@ -27,12 +27,14 @@ a {
   transition: 0.3s ease;
   padding: 1rem;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  overflow-x: hidden !important;
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
   .aboveHeader {
     display: none;
+    overflow-x: hidden !important;
   }
 }
 
@@ -71,11 +73,13 @@ header {
   z-index: 1000;
   box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
   transition: all 80ms ease;
+  overflow-x: hidden !important;
 }
 
 header.scrolled {
   box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.12);
   transition: 0.2s ease;
+  overflow-x: hidden !important;
 }
 
 section {
@@ -84,6 +88,7 @@ section {
   width: 100%;
   background: url("bg1.jpg") no-repeat top center / cover;
   animation: slide 15s infinite;
+  overflow-x: hidden !important;
 }
 
 /* Landscape phone to portrait tablet */
@@ -127,6 +132,7 @@ section {
   .nav-btn {
     margin-top: -3rem;
     height: 100vh !important;
+    overflow-x: hidden !important;
   }
 
   .nav-link:hover > a {
@@ -183,6 +189,7 @@ section {
   display: flex;
   position: relative;
   height: 6rem;
+  overflow-x: hidden !important;
 }
 
 .logo-container {
@@ -195,6 +202,7 @@ section {
 .nav-btn {
   flex: 3;
   display: flex;
+  overflow-x: hidden !important;
 }
 
 .nav-links {
@@ -235,6 +243,7 @@ section {
   margin: 0 0.2rem;
   transition: 0.3s ease;
   text-transform: uppercase;
+  overflow-x: hidden !important;
 }
 
 .btn.solid {
@@ -469,6 +478,7 @@ section {
     overflow-y: auto;
     transform: translateX(100%);
     transition: 0.65s;
+    overflow-x: hidden !important;
   }
 
   #check:checked ~ .nav-btn {
@@ -483,6 +493,7 @@ section {
   .nav-links {
     flex: initial;
     width: 100%;
+    overflow-x: hidden !important;
   }
 
   .nav-links > ul {
@@ -492,7 +503,9 @@ section {
   .nav-link {
     width: 100%;
     opacity: 0;
+    overflow-x: hidden !important;
     transform: translateY(15px);
+    overflow-x: hidden !important;
   }
 
   .nav-link > a {
@@ -621,6 +634,7 @@ section {
   .btn {
     padding: 0.2rem 0rem !important;
     font-size: 0.7rem !important;
+    overflow-x: hidden !important;
   }
 }
 
@@ -629,6 +643,7 @@ section {
   height: auto;
   width: 100%;
   background-image: linear-gradient(white, #e6e6e6);
+  overflow-x: hidden !important;
 }
 
 .middle h2 {
@@ -666,6 +681,7 @@ section {
   width: 40%;
   height: 23rem;
   box-shadow: 0px 1px 16px rgba(0, 0, 0, 0.12);
+  overflow-x: hidden !important;
 }
 
 .slide1 {
@@ -768,11 +784,13 @@ section {
   .cardlist .leftext {
     margin-left: 1.5rem !important;
     width: 80% !important;
+    overflow-x: hidden !important;
   }
 
   .cardlist .card {
     margin-left: -4rem !important;
     max-width: 90%;
+    overflow-x: hidden !important;
     margin-bottom: 1rem;
   }
 
@@ -780,6 +798,7 @@ section {
     width: 100%;
     padding-left: 1.9rem !important;
     font-size: 1rem;
+    overflow-x: hidden !important;
   }
 
   .cardlist {
@@ -791,6 +810,7 @@ section {
 .cardlist {
   background-image: linear-gradient(#e6e6e6, white);
   max-width: 100%;
+  overflow-x: hidden !important;
 }
 
 .cardlist h4 {
@@ -853,6 +873,7 @@ section {
 
   .testimonials .wrapper {
     max-width: 95% !important;
+    overflow-x: hidden !important;
     padding-left: 1.8rem !important;
   }
 
@@ -883,6 +904,7 @@ section {
   padding-bottom: 5rem;
   width: 100%;
   background-repeat: no-repeat;
+  overflow-x: hidden !important;
   background-size: 100%;
 }
 
@@ -896,6 +918,7 @@ section {
   bottom: 0;
   right: 0;
   position: absolute;
+  overflow-x: hidden !important;
   z-index: -1;
 }
 
@@ -983,6 +1006,7 @@ section {
 @media (max-width: 702px) {
   .testimonials .wrapper .box {
     width: 100%;
+    overflow-x: hidden !important;
     margin-left: -1rem;
   }
 }
@@ -1007,6 +1031,7 @@ section {
   .questions .wrapper {
     max-width: 95% !important;
     padding-left: 1.5rem !important;
+    overflow-x: hidden !important;
   }
 
   .questions .wrapper label span {
@@ -1050,6 +1075,7 @@ section {
 .wrapper {
   max-width: 93%;
   padding: 0 20px;
+  overflow-x: hidden !important;
 }
 .wrapper .parent-tab,
 .wrapper .child-tab {
@@ -1150,6 +1176,7 @@ input[type="checkbox"] {
   padding-top: -5rem;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow-x: hidden !important;
 }
 
 .calltoaction:after {
@@ -1184,6 +1211,7 @@ input[type="checkbox"] {
   width: 100%;
   margin-top: 5rem;
   margin-bottom: -4rem;
+  overflow-x: hidden !important;
 }
 
 .badges img {
